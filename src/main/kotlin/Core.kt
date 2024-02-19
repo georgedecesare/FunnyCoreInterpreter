@@ -55,6 +55,9 @@ class Core {
         cycles += 3
         return registers[r] > 0
     }
+    fun dump() {
+        println(registers.map{ it.toString(2) })
+    }
     operator fun get(r: Int) = registers[r]
     operator fun set(r: Int, v: Int) {
         registers[r] = v
