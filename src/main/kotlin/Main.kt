@@ -21,4 +21,5 @@ fun main() {
     println(core[3])
     */
     println(core[0])
+    println(core.cycles) // print number of cycles
 }
