@@ -20,4 +20,5 @@ fun main() {
     println(core[2])
     println(core[3])
     */
+    println(core[0])
 }
